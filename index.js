@@ -11,7 +11,7 @@ function nowServing(line) {
   }
 
   return `Currently serving ${line.shift()}.`
-};
+}
 
 function currentLine(line) {
   if (!line.length) {
@@ -25,4 +25,4 @@ function currentLine(line) {
   }
 
   return `The line is currently: ${numbersAndNames.join(', ')}`
-};
+}
